@@ -43,7 +43,7 @@ int findMinMissingPositive(int *input, size_t size) {
         }
     }
 
-    return size;
+    return size - numOfNonPositives + 1;
 }
 
 
