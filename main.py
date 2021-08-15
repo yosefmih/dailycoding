@@ -5,7 +5,9 @@ import argparse
 import subprocess
 
 func_to_file = {
-    "find_smallest_number" : "findsmallestpositive.c"
+    "find_smallest_number" : "findsmallestpositive.c",
+    "bitarray": "bitarray.c",
+    "fixed_point_array": "fixed_point_array.c"
 }
 
 def compile_and_run(func_file, args=[]):
