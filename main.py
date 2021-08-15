@@ -7,7 +7,8 @@ import subprocess
 func_to_file = {
     "find_smallest_number" : "findsmallestpositive.c",
     "bitarray": "bitarray.c",
-    "fixed_point_array": "fixed_point_array.c"
+    "fixed_point_array": "fixed_point_array.c",
+    "merge_binary_trees": "merge_binary_trees.c"
 }
 
 def compile_and_run(func_file, args=[]):
